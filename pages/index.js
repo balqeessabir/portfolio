@@ -178,7 +178,7 @@ export default function Home() {
           <h1 className="title">Projects</h1>
           <div className={styles.project_box}>
             <div className="overlay">
-              <a href="https://meqeen.com/" target="_blank">
+              <a href="https://meqeen.com/" target="_blank" rel="noreferrer">
                 <Image
                   src="/meqeen_1.png"
                   alt="MEQEEN"
@@ -196,7 +196,11 @@ export default function Home() {
               />
             </div>
             <div className="overlay">
-              <a href="https://nimir.center/index.html" target="_blank">
+              <a
+                href="https://nimir.center/index.html"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image
                   src="/mncec.png"
                   alt="Mutasim nimir center"
@@ -208,7 +212,11 @@ export default function Home() {
           </div>
           <div className={styles.project_box}>
             <div className="overlay">
-              <a href="https://admin.agalista.com/" target="_blank">
+              <a
+                href="https://admin.agalista.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image
                   src="/agalista_1.png"
                   alt="Agalista admin"
@@ -219,7 +227,11 @@ export default function Home() {
               </a>
             </div>
             <div className="overlay">
-              <a href="https://admin.agalista.com/" target="_blank">
+              <a
+                href="https://admin.agalista.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image
                   src="/agalista_2.png"
                   alt="Agalista Admin"
@@ -230,7 +242,7 @@ export default function Home() {
               </a>
             </div>
             <div className="overlay">
-              <a href="https://eccs.sd/" target="_blank">
+              <a href="https://eccs.sd/" target="_blank" rel="noreferrer">
                 <Image
                   src="/eccs_3.png"
                   alt="ECCS"
@@ -243,7 +255,7 @@ export default function Home() {
           </div>
           <div className={styles.project_box}>
             <div className="overlay">
-              <a href="https://eccs.sd/" target="_blank">
+              <a href="https://eccs.sd/" target="_blank" rel="noreferrer">
                 <Image
                   src="/eccs_1.png"
                   alt="ECCS"
