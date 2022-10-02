@@ -299,13 +299,12 @@ export default function Home() {
         </div>
         <div className="socials">
           <div className={styles.social_icon}>
-            <FontAwesomeIcon icon={faTwitter} />
-          </div>
-          <div className={styles.social_icon}>
-            <FontAwesomeIcon icon={faLinkedin} />
-          </div>
-          <div className={styles.social_icon}>
-            <FontAwesomeIcon icon={faGithub} />
+            <a
+              href="https://www.linkedin.com/in/balqees-sabir-8119bb162/"
+              target={_blank}
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
           </div>
         </div>
         <div>
