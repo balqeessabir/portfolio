@@ -261,7 +261,7 @@ export default function Home() {
             <div className="overlay">
               <a
                 href="https://eccs.sd/"
-                target="_blank"
+                target={_blank}
                 rel="noopener noreferrer"
               >
                 <Image
