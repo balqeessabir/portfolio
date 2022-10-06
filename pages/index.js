@@ -178,11 +178,7 @@ export default function Home() {
           <h1 className="title">Projects</h1>
           <div className={styles.project_box}>
             <div className="overlay">
-              <a
-                href="https://meqeen.com/"
-                target={_blank}
-                rel="noopener noreferrer"
-              >
+              <a href="https://meqeen.com/" rel="noopener noreferrer">
                 <Image
                   src="/meqeen_1.png"
                   alt="MEQEEN"
@@ -202,7 +198,6 @@ export default function Home() {
             <div className="overlay">
               <a
                 href="https://nimir.center/index.html"
-                target={_blank}
                 rel="noopener noreferrer"
               >
                 <Image
@@ -216,11 +211,7 @@ export default function Home() {
           </div>
           <div className={styles.project_box}>
             <div className="overlay">
-              <a
-                target={_blank}
-                href="https://admin.agalista.com/"
-                rel="noopener noreferrer"
-              >
+              <a href="https://admin.agalista.com/" rel="noopener noreferrer">
                 <Image
                   src="/agalista_1.png"
                   alt="Agalista admin"
@@ -231,11 +222,7 @@ export default function Home() {
               </a>
             </div>
             <div className="overlay">
-              <a
-                target={_blank}
-                href="https://admin.agalista.com/"
-                rel="noopener noreferrer"
-              >
+              <a href="https://admin.agalista.com/" rel="noopener noreferrer">
                 <Image
                   src="/agalista_2.png"
                   alt="Agalista Admin"
@@ -259,11 +246,7 @@ export default function Home() {
           </div>
           <div className={styles.project_box}>
             <div className="overlay">
-              <a
-                href="https://eccs.sd/"
-                target={_blank}
-                rel="noopener noreferrer"
-              >
+              <a href="https://eccs.sd/" rel="noopener noreferrer">
                 <Image
                   src="/eccs_1.png"
                   alt="ECCS"
@@ -307,10 +290,7 @@ export default function Home() {
         </div>
         <div className="socials">
           <div className={styles.social_icon}>
-            <a
-              href="https://www.linkedin.com/in/balqees-sabir-8119bb162/"
-              target={_blank}
-            >
+            <a href="https://www.linkedin.com/in/balqees-sabir-8119bb162/">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
